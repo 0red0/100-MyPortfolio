@@ -1,4 +1,9 @@
+* {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
 body {
+  font: 16px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,17 +15,91 @@ body {
   justify-content: center;
 }
 
-div {
-  background-color: #eee;
-  flex-basis: 60%;
+.back-image {
+  background-color: #c2fbef;
+  max-width: 70%;
+  padding: 15px;
 }
 
 h1 {
   color: #ffffff;
 }
+
+/* ----NAV AREA--- */
+
+nav {
+  background-color: #8e4a49;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul,
+.logo {
+  color: white;
+  padding: 15px;
+  list-style-type: none;
+  margin: 0;
+}
+ul {
+  display: flex;
+  justify-content: end;
+}
+li {
+  padding-left: 10px;
+}
+.logo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ---CONTENT AREA--- */
+/* ---CONTENT AREA--- */
+/* ---CONTENT AREA--- */
+
+main {
+  display: flex;
+}
+aside {
+  background-color: #7fd5bf;
+  padding: 10px;
+  margin-right: 8px;
+  flex-basis: 20%;
+}
+
+section {
+  background-color: rgb(202, 198, 144);
+  padding: 15px;
+  flex-basis: 90%;
+}
+
+.art1 {
+  margin-bottom: 20px;
+  max-height: 500px;
+  display: flex;
+
+  overflow: hidden;
+}
+
+/* p {
+  margin: 0;
+} */
+figure {
+  margin: 0;
+  padding: 0;
+  min-height: 500px;
+}
 figure img {
-  width: 40%;
+  max-width: 100%;
 }
 figcaption img {
   width: 95%;
+}
+
+/* ---FOOTER--- */
+
+footer {
+  background-color: #5f464b;
+  margin-top: 8px;
 }
