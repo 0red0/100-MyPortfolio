@@ -16,7 +16,7 @@ body {
 }
 
 .back-image {
-  background-color: #c2fbef;
+  background-color: #34b3f1;
   max-width: 70%;
   padding: 15px;
 }
@@ -28,7 +28,7 @@ h1 {
 /* ----NAV AREA--- */
 
 nav {
-  background-color: #8e4a49;
+  background-color: #000000;
   margin-bottom: 8px;
   display: flex;
   align-items: center;
@@ -62,14 +62,14 @@ main {
   display: flex;
 }
 aside {
-  background-color: #7fd5bf;
+  background-color: #eee;
   padding: 10px;
   margin-right: 8px;
   flex-basis: 20%;
 }
 
 section {
-  background-color: rgb(202, 198, 144);
+  background-color: #f15412;
   padding: 15px;
   flex-basis: 90%;
 }
@@ -82,13 +82,16 @@ section {
   overflow: hidden;
 }
 
-/* p {
-  margin: 0;
-} */
+.cap1 {
+  width: 50%;
+  line-height: 2;
+}
+
 figure {
   margin: 0;
   padding: 0;
-  min-height: 500px;
+  width: 50%;
+  /* min-height: 500px; */
 }
 figure img {
   max-width: 100%;
@@ -100,6 +103,10 @@ figcaption img {
 /* ---FOOTER--- */
 
 footer {
-  background-color: #5f464b;
+  background-color: #000000;
+  color: white;
   margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
