@@ -2,10 +2,25 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-image: url("images/nilov.jpg");
+  background-image: url("images/b1.jpg");
   background-position: center;
-  background-size: 100%;
+  background-size: contain;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
+
+div {
+  background-color: #eee;
+  flex-basis: 60%;
+}
+
 h1 {
   color: #ffffff;
+}
+figure img {
+  width: 40%;
+}
+figcaption img {
+  width: 95%;
 }
