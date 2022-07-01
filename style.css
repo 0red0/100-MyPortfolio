@@ -19,24 +19,40 @@ body {
   background-color: #34b3f1;
   max-width: 70%;
   padding: 15px;
+  box-shadow: -1px 0 20px 0 rgb(0, 0, 0), 1px 0 20px 0 rgb(0, 0, 0);
 }
 
 h1 {
+  margin: 0;
+  padding: 20px;
   color: #ffffff;
+  /* display: inline; */
+}
+#png1 {
+  padding: 0;
+  margin: 0;
+  width: 200px;
 }
 
 /* ----NAV AREA--- */
 
 nav {
+  color: #ffffff;
   background-color: #000000;
   margin-bottom: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+sub {
+  position: absolute;
+  left: 155px;
+  bottom: 9px;
 }
 ul,
 .logo {
-  color: white;
+  color: #f15412;
   padding: 15px;
   list-style-type: none;
   margin: 0;
@@ -53,7 +69,9 @@ li {
   font-size: 20px;
   font-weight: bold;
 }
-
+button {
+  background-color: #f15412;
+}
 /* ---CONTENT AREA--- */
 /* ---CONTENT AREA--- */
 /* ---CONTENT AREA--- */
@@ -69,7 +87,7 @@ aside {
 }
 
 section {
-  background-color: #f15412;
+  background-color: #eee;
   padding: 15px;
   flex-basis: 90%;
 }
@@ -78,26 +96,25 @@ section {
   margin-bottom: 20px;
   max-height: 500px;
   display: flex;
-
   overflow: hidden;
 }
 
 .cap1 {
   width: 50%;
   line-height: 2;
+  padding: 10px;
 }
 
 figure {
   margin: 0;
   padding: 0;
   width: 50%;
-  /* min-height: 500px; */
 }
 figure img {
   max-width: 100%;
 }
 figcaption img {
-  width: 95%;
+  width: 100%;
 }
 
 /* ---FOOTER--- */
