@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 0 auto;
   padding: 20px;
   color: #ffffff;
   /* display: inline; */
@@ -52,7 +52,7 @@ sub {
 }
 ul,
 .logo {
-  color: #f15412;
+  color: #fff;
   padding: 15px;
   list-style-type: none;
   margin: 0;
@@ -78,6 +78,13 @@ button {
 
 main {
   display: flex;
+}
+aside button {
+  width: 80%;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 5px 4px 10px 0px black;
+  border: none;
 }
 aside {
   background-color: #eee;
@@ -107,14 +114,22 @@ section {
 
 figure {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   width: 50%;
 }
 figure img {
   max-width: 100%;
+  box-shadow: 5px 6px 11px 0px black;
+}
+figcaption {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 figcaption img {
-  width: 100%;
+  width: 75%;
+  box-shadow: 5px 4px 10px 0px black;
+  margin: 20px;
 }
 
 /* ---FOOTER--- */
