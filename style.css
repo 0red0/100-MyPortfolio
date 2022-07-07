@@ -79,13 +79,22 @@ button {
 main {
   display: flex;
 }
+.b-container {
+  perspective: 400px;
+}
 aside button {
   width: 80%;
   padding: 5px;
   margin: 10px;
   box-shadow: 5px 4px 10px 0px black;
   border: none;
+  transform-style: preserve-3d;
+  transition: transform 1.3s;
 }
+aside button:hover {
+  transform: rotateY(0.99turn);
+}
+
 aside {
   background-color: #eee;
   padding: 10px;
